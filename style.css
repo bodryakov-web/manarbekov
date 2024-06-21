@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  outline: 2px solid blue;
+  padding: 1%;
+  min-height: 100vh;
+}
+
+.main-header {
+  outline: 2px solid brown;
+}
+
+.main-menu {
+  outline: 2px solid gold;
+}
+
+.main-content {
+  outline: 2px solid green;
+  font-size: 200%;
+}
+
+.main-footer {
+  outline: 2px solid magenta;
+}
