@@ -9,51 +9,70 @@ html, body {
 }
 
 body {
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
+  font-size: 120%;
 }
 
 body, div, header, nav, main, footer {
-  padding: 1%;
+  padding: 0.5%;
 }
 
 header, nav, main {
   margin-bottom: 1%;
 }
 
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
 .main-header {
-  outline: 2px solid brown;
+  /* outline: 2px solid brown; */
 }
 
 .main-menu {
-  outline: 2px solid gold;
+  /* outline: 2px solid gold; */
 }
 
 .main-content {
-  outline: 2px solid green;
-  font-size: 200%;
+  /* outline: 2px solid green; */
+  min-height: 80vh;
+  font-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1%;
 }
 
 .main-footer {
-  outline: 2px solid magenta;
+  /* outline: 2px solid magenta; */
+  text-align: center;
 }
 
 h1, h2, h3 {
   text-align: center;
 }
 
+section {
+  /* outline: 2px solid olive; */
+  padding: 1%;
+}
+
 .main-menu__list {
-  outline: 2px dashed red;
+  /* outline: 2px dashed red; */
   padding: 0%;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(7, minmax(100px, 12vw));
+  grid-template-columns: repeat(7, minmax(100px, 15vw));
   place-items: center center;
   justify-content: space-between;
 
 }
 
 .main-menu__list li {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   padding: 0;
   display: grid;
   align-items: center;
@@ -63,14 +82,14 @@ h1, h2, h3 {
 
 
 a {
-  outline: 2px dotted blue;
-  min-height: 10vh;
+  /* outline: 2px dotted blue; */
+  min-height: 12vh;
   text-decoration: none;
   display: grid;
   align-items: center;
   text-align: center;
   color: black;
-  padding: 2% 3%;
+  padding: 3% 2%;
   margin: 10px 20px;
   border-radius: 10px;
   font-weight: bold;
@@ -80,3 +99,13 @@ a {
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   transition: 0.5s; }
 a:hover {background-position: right center;}
+
+
+
+.other-content {
+  outline: 2px solid green;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
