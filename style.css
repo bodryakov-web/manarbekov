@@ -58,6 +58,7 @@ h1, h2, h3 {
 section {
   /* outline: 2px solid olive; */
   padding: 1%;
+  text-align: justify;
 }
 
 .main-menu__list {
@@ -65,7 +66,7 @@ section {
   padding: 0%;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(7, minmax(100px, 15vw));
+  grid-template-columns: repeat(6, minmax(100px, 15vw));
   place-items: center center;
   justify-content: space-between;
 
@@ -84,17 +85,17 @@ section {
 a {
   /* outline: 2px dotted blue; */
   min-height: 12vh;
+  min-width: 15vw;
   text-decoration: none;
   display: grid;
   align-items: center;
   text-align: center;
   color: black;
   padding: 3% 2%;
-  margin: 10px 20px;
   border-radius: 10px;
   font-weight: bold;
   line-height: 1;
-  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-image: linear-gradient(to right, #9EEFE1aa 0%, #4830F0aa 51%, #9EEFE1aa 100%);
   background-size: 200% auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   transition: 0.5s; }
